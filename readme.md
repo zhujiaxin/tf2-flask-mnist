@@ -51,7 +51,7 @@ docker run --rm -d -p 18501:8501 -v "这里修改成你的项目绝对路径/tra
 运行好docker之后，推荐运行一下代码检查模型是否正确发布
 
 ~~~shell
- curl http://localhost.com:18501/v1/models/lenet/metadata # 返回StatusCode: 200就行了
+ curl http://localhost:18501/v1/models/lenet/metadata # 返回StatusCode: 200就行了
 ~~~
 
 
