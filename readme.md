@@ -79,3 +79,7 @@ python app.py
 
 
 使用浏览器访问 http:localhost:8000 就可以进行愉快的玩耍了
+
+## 改进（TODO）
+
+目前项目中flask只是提供了web服务，因为我不会改js中的代码，所以这还是沿袭了课程中的内容，可以更新成nginx+html页面的方式，这样的话，架构就成了nginx+docker+tensorflow的架构了，这样就没有flask了，可能会更好一些
